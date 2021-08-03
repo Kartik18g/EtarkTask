@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, 'sans-serif';
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.about-container li {
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+}
+
+.about-container ul {
+    margin-left: 10vh;
+}
+
+.about-container p {
+    text-align: left;
+    margin-top: 2vh;
+}
+
+.about-container h2 {
+    text-align: left;
+    margin-top: 5vh;
+}
+
+.accordion-content {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #245fd3;
+    text-align: center;
+}
+
+
+/* navbar styles */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+}
+
+.nav-container .flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container .flex-item .item {
+    margin: 24px 20px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container .auth {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.nav-container .auth a {
+    text-decoration: none;
+}
+
+.nav-container .auth .item {
+    margin: 24px 40px 0;
+    text-decoration: none;
+    color: black;
+}
+
+div.auth .button {
+    color: white;
+    height: 36px;
+    width: 130px;
+}
